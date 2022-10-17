@@ -1,0 +1,25 @@
+.logo {
+    width: 45px;
+    float: left;
+    padding-right: 10px;
+}
+body{
+    background-color: bisque;
+}
+h1 {
+    font-size: 30px;
+    color: darkred;
+}
+button {
+    background-color: greenyellow;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+    .logo {
+        width: 100px;
+        padding-right: 20px;
+    }
+}
